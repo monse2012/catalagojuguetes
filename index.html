@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Juguetes para Mascotas</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .product-card h3 {
+            color: #2c3e50;
+            padding: 10px;
+            font-size: 1.2rem;
+        }
+
+        .product-card p {
+            color: #7f8c8d;
+            padding: 0 10px;
+            font-size: 1rem;
+        }
+
+        .product-card .price {
+            color: #e74c3c;
+            font-size: 1.5rem;
+            margin: 15px 0;
+        }
+
+        .product-card button {
+            background-color: #16a085;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .product-card button:hover {
+            background-color: #1abc9c;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Tienda de Juguetes para Mascotas
+</header>
+
+<div class="main-content">
+    <!-- Producto 1 - Mordedero -->
+    <div class="product-card">
+        <img src="IMG/mordedera.jpg" alt="Mordedero" style="width: 300px; height: 180px;">
+        <h3>Mordedero</h3>
+        <p>Juguete resistente para que tu mascota disfrute masticar. 1pza al azar.</p>
+        <div class="price">$23.99</div>
+        <a href="https://monse2012.github.io/formularioalimentosyaseo/"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 2 - Pelota interactiva -->
+    <div class="product-card">
+        <img src="IMG/pelota.jpg" alt="Pelota interactiva" style="width: 300px; height: 180px;">
+        <h3>Pelota Interactiva</h3>
+        <p>Pelota para mantener a tu mascota activa y entretenida. 1pza al azar.</p>
+        <div class="price">$15.49</div>
+        <a href="https://monse2012.github.io/formularioalimentosyaseo/"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 3 - Hueso de goma -->
+    <div class="product-card">
+        <img src="IMG/hueso.jpg" alt="Hueso de goma" style="width: 300px; height: 180px;">
+        <h3>Hueso de Goma</h3>
+        <p>Duradero y perfecto para cuidar sus dientes.</p>
+        <div class="price">$9.99</div>
+        <a href="https://monse2012.github.io/formularioalimentosyaseo/"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 4 - Cuerda con nudos -->
+    <div class="product-card">
+        <img src="IMG/cuerdaconudos.jpg" alt="Cuerda con nudos" style="width: 300px; height: 180px;">
+        <h3>Cuerda con Nudos para Perros o Gatos</h3>
+        <p>Ideal para juegos de tira y afloja para tu mascota.</p>
+        <div class="price">$7.99</div>
+        <a href="https://monse2012.github.io/formularioalimentosyaseo/"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 5 - Discos para mascotas -->
+    <div class="product-card">
+        <img src="IMG/discos.jpg" alt="Discos para mascotas" style="width: 300px; height: 180px;">
+        <h3>Discos para Mascotas</h3>
+        <p>Ligero y fácil de lanzar, ideal para exteriores. 1pza al azar.</p>
+        <div class="price">$14.99</div>
+        <a href="https://monse2012.github.io/formularioalimentosyaseo/"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 6 - Ratón de juguete para gatos -->
+    <div class="product-card">
+        <img src="IMG/ratondejuguete.jpg" alt="Ratón de juguete" style="width: 300px; height: 180px;">
+        <h3>Ratón de Juguete</h3>
+        <p>Ratonsito que tu gato adorará.</p>
+        <div class="price">$34.50</div>
+        <a href="https://monse2012.github.io/formularioalimentosyaseo/"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 7 - Juguete chillón -->
+    <div class="product-card">
+        <img src="IMG/juguetechillon.jpg" alt="Juguete Chillón" style="width: 300px; height: 180px;">
+        <h3>Juguete Chillón</h3>
+        <p>Para que tu perro se divierta con el sonido.</p>
+        <div class="price">$45.99</div>
+        <a href="https://monse2012.github.io/formularioalimentosyaseo/"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 8 - Tunnel para gatos -->
+    <div class="product-card">
+        <img src="IMG/tunel.jpg" alt="Tunnel para gatos" style="width: 300px; height: 180px;">
+        <h3>Tunnel para Gatos</h3>
+        <p>Espacio perfecto para que juegue tu mishu. 1pza al azar.</p>
+        <div class="price">$89.99</div>
+        <a href="https://monse2012.github.io/formularioalimentosyaseo/"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 9 - Pelota dispensadora de premios -->
+    <div class="product-card">
+        <img src="IMG/pelotadispensadora.jpg" alt="Pelota dispensadora de premios" style="width: 300px; height: 180px;">
+        <h3>Pelota Dispensadora</h3>
+        <p>Premia a tu mascota mientras juega.</p>
+        <div class="price">$40.99</div>
+        <a href="https://monse2012.github.io/formularioalimentosyaseo/"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 10 - Peluche para perros -->
+    <div class="product-card">
+        <img src="IMG/peluche.jpg" alt="Peluche para mascotas" style="width: 300px; height: 180px;">
+        <h3>Peluche para Mascotas</h3>
+        <p>Suave peluche y perfecto para acurrucarse.</p>
+        <div class="price">$30.50</div>
+        <a href="https://monse2012.github.io/formularioalimentosyaseo/"><button>Comprar</button></a>
+    </div>
+</div>
+
+</body>
+</html>
